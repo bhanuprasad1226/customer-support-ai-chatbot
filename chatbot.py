@@ -1,5 +1,3 @@
-# chatbot.py
-
 
 import logging
 import os
@@ -286,6 +284,10 @@ def api_message():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    logger.info("Starting chatbot on http://127.0.0.1:%s", port)
-    app.run(host="127.0.0.1", port=port, debug=True, use_reloader=False)
+    host = "0.0.0.0"
+    debug = os.environ.get("FLASK_DEBUG", "false").lower() in ("1", "true", "yes")
+    logger.info("Starting chatbot on http://%s:%s (debug=%s)", host, port, debug)
+    app.run(host=host, port=port, debug=debug, use_reloader=False)
+
+
 
