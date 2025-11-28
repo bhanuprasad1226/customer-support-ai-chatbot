@@ -70,8 +70,8 @@ python chatbot.py
 - **"I forgot my password"**
 
 - **"Explain the refund policy"**
-
-- **The chatbot will instantly respond with helpful answers.**
+  
+ **The chatbot will instantly respond with helpful answers.**
   
   ---
 ## 🛠️ Technologies Used
