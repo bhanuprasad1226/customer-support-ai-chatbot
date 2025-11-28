@@ -17,6 +17,10 @@ Users can interact with the chatbot through a clean and simple UI, and the backe
 
 ---
 ## 🌐 Live Demo
+[🚀 Click Here to Open the Live Chatbot](https://customer-support-ai-chatbot.onrender.com/)
+
+---
+
 
 
 ## 📂 Project Structure
