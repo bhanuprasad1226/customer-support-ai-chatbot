@@ -1,13 +1,5 @@
 # chatbot.py
-"""
-Improved FAQ-based chatbot (Flask).
-Features:
-- TF-IDF retrieval + token-overlap + fuzzy fallback
-- More FAQ entries (expanded)
-- Clear JSON response with 'reply', 'score', 'method', 'intent_id'
-- /health and /faqs endpoints for debugging/integration
-- Defensive and logging-enabled
-"""
+
 
 import logging
 import os
@@ -296,3 +288,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     logger.info("Starting chatbot on http://127.0.0.1:%s", port)
     app.run(host="127.0.0.1", port=port, debug=True, use_reloader=False)
+
