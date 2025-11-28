@@ -13,7 +13,7 @@ Users can interact with the chatbot through a clean and simple UI, and the backe
 - ⚡ **Instant replies** served from a Flask backend  
 - 📂 **Lightweight model files** stored directly in the project  
 - 🎨 **User-friendly chat interface**  
-- 🚀 **Easy deployment on Render / Railway**
+
 
 ---
 ## 🌐 Live Demo
